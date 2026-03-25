@@ -81,9 +81,84 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/topics/typescript?l=typescript
+
+
+2. Gráfico selecionado: Vou explicar alguns gráficos:
+3. Explicação: E vou explicar logo abaixo:
+
+
+
+![LOC](images/loc.jpeg)
+
+**Tendência:**
+O número de linhas de código aumenta de forma constante de 2021 (1.423.080) até 2026 (1.601.019).
+
+**Interpretação:**
+A base de código em TypeScript está crescendo todos os anos, o que indica que o projeto continua em desenvolvimento ativo.
+Esse crescimento geralmente significa:
+
+- Adição de novas funcionalidades
+- Correções e melhorias no sistema
+- Expansão do escopo do projeto
+- Inclusão de novos módulos ou serviços
+
+O fato de o crescimento ser gradual (e não um salto repentino) sugere um desenvolvimento contínuo e organizado, e não uma reescrita completa.
+
+---
+
+![LOC/TypeScript Files](images/loc-files.jpeg)
+
+**Tendência:**
+A média de linhas por arquivo diminui de aproximadamente 85,6 (2021) para 77,1 (2026).
+
+**Interpretação:**
+Cada arquivo está ficando um pouco menor em média.
+
+Isso pode indicar:
+
+- Refatoração do código
+- Divisão de arquivos grandes em vários menores
+- Melhor modularização
+- Uso maior de funções reutilizáveis
+
+Arquivos menores geralmente significam:
+
+- Código mais legível
+- Mais fácil de testar
+- Mais fácil de manter
+- Menor acoplamento
+
+---
+
+![Classes, interfaces e type aliase](images/classes-bar.jpeg)
+![Classes, interfaces e type aliase - tempo](images/classes-line.jpeg)
+
+**No recorte mais recente, em 2026, o projeto possui:**
+
+- Interfaces: 11.846
+- Classes: 11.069
+- Type aliases: 6.570
+
+Isso mostra que o código utiliza interfaces e classes em quantidades próximas, além de um número menor, mas relevante, de type aliases, o que é comum em projetos grandes em TypeScript, onde a tipagem explícita é usada para manter organização e legibilidade.
+
+**Ao longo do tempo (2021 → 2026), observa-se uma mudança gradual:**
+
+Interfaces: 14.307 → 11.846 (diminuiu)
+Classes: 9.577 → 11.069 (aumentou)
+Type aliases: 4.932 → 6.570 (aumentou)
+
+Essa tendência sugere uma evolução no estilo do código, com maior uso de classes e tipos mais avançados do TypeScript, enquanto parte das interfaces pode estar sendo substituída por outras estruturas.
+No geral, o projeto continua evoluindo e adotando práticas mais modernas da linguagem.
+
+---
+
+![Await](images/await.jpeg)
+
+O gráfico mostra que o número de expressões await aumentou de 787 em 2021 para 1.082 em 2026, com crescimento constante ao longo dos anos.
+
+Isso indica que o projeto está usando cada vez mais programação assíncrona e adotando o padrão async/await, substituindo abordagens mais antigas como callbacks .then() em promises.
+
 
 
 
